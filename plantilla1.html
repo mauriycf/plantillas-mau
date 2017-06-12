@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- framework css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="fullpage/jquery.fullPage.css">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300i" rel="stylesheet">
+  <!-- css personalizados -->
+  <link rel="stylesheet" href="css/plantilla1.css">
+  <title>Document</title>
+</head>
+  <body>
+
+    <!-- navbar -->
+
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+
+            <div class="navbar-header">
+                <button button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- logo -->
+                <a class="navbar-brand" rel="home" href="/plantillas/plantilla1.html" title="">
+                    HTI
+                </a>
+            </div>
+
+            <div id="navbar" class="collapse navbar-collapse navbar-responsive-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Inicio</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contactanos</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Más <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Nav header</li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+    			<form class="navbar-form navbar-right" role="search" method="get" id="searchform" action="">
+    				<div class="form-group">
+    					<input name="s" id="s" type="text" class="search-query form-control" autocomplete="off" placeholder="Search...">
+              <input type="submit" name="" value="Enviar" class="btn btn-default">
+    				</div>
+    			</form>
+    		</div>
+
+        </div>
+    </div>
+
+    <div id="fullpage">
+    	<div class="section " id="section0">
+    		<div class="intro">
+    			<div class="row">
+    			  <div class="col-lg-7">
+              <h1>
+              <a href="" class="typewrite" data-period="2000" data-type='[ "Hola, Somos Tecnologia", "Representamos la Creatividad", "Somos Innovacion", "Desarrollamos en Muchos Lenguajes." ]'>
+                <span class="wrap"></span>
+              </a>
+            </h1>
+    			  </div>
+            <div class="col-lg-5">
+              <img src="ProyectoAlejandro.gif" alt="" width="80%">
+    			  </div>
+    			</div>
+    		</div>
+    	</div>
+    	<div class="section" id="section1">
+    	    <div class="slide" id="slide1">
+    			<div class="intro">
+    				<h1>Free scroll</h1>
+    				<p>
+    					User can still using the scroll bar and fullPage.js will do the rest!
+    				</p>
+    			</div>
+    		</div>
+
+    	    <div class="slide" id="slide2">
+    			<h1>Slide 2</h1>
+    		</div>
+
+    	</div>
+    	<div class="section" id="section2">
+    		<div class="intro">
+    			<h1>Great User Experience!</h1>
+    		</div>
+    	</div>
+    </div>
+
+    <!-- librerias de JavaScript -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="fullpage/jquery.fullPage.min.js"></script>
+    <!-- JavaScript Personalizado -->
+    <script src="js/plantilla1.js" charset="utf-8"></script>
+    <!-- Página Diseñada por: Mauricio José Viana Stauber -->
+  </body>
+</html>

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300i');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+*
+{
+  padding:0;
+  margin:0;
+}
+
+body
+{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+h1,h2,h3,h4,h5
+{
+  font-family: 'Lato';
+  font-weight: 300;
+  font-style: italic;
+  font-size: 40px;
+}
+
+/* navbar */
+  h1{
+    font-size: 5em;
+    font-family: arial,helvetica;
+    color: #000;
+    margin:0;
+  }
+.intro p{
+  color: #fff;
+}
+
+/* Centered texts in each section
+* --------------------------------------- */
+.section{
+  text-align:center;
+}
+
+
+/* Bottom menu
+* --------------------------------------- */
+#infoMenu li a {
+  color: #fff;
+}
+
+.typewrite
+{
+  text-decoration: none;
+  color: #000;
+}
+
+.typewrite:hover
+{
+  text-decoration: none;
+  color: gray;
+}
